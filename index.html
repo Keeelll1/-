@@ -8,59 +8,6 @@
     
 </head>
 <body>
-    <header class="header">
-        <section class="sub-header">
-            <div class="container">
-                <div class="sub-header-content-wrapper">
-                    <div class="sub-header-left-content">
-                        <p class="sub-header-text">Условия оплаты</p>
-                        <p class="sub-header-text">Доставка</p>
-                        <p class="sub-header-text">Наш офис</p>
-                    </div>
-                    <div class="sub-header-content">
-                        <a class="tel sub-header-content-text" href="tel:+73422700646">+7 342 2-700-646</a>
-                        <a class="tel-text" href="tel:+73422700646">Заказать звонок</a>
-                    </div>
-                    <div class="sub-header-content">
-                        <a href=""><p class="sub-header-content-text">Вход</p></a>
-                        <a href=""><p class="sub-header-content-text">Регистрация</p></a>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <section class="main-header">
-            <div class="container">
-                <div class="main-header-wrapper">
-                    <a href="https://dis-com.ru/company/">
-                        <img src="./images/imgSVG/logo.svg" alt="logo" class="logo">
-                    </a>
-                    <nav class="header-navigation">
-                        <a href="#" class="header-nav-item active">Услуги</a>
-                        <a href="#" class="header-nav-item">Заправка картриджей</a>
-                        <a href="#" class="header-nav-item">О компании</a>
-                        <a href="#" class="header-nav-item">Контакты</a>
-                    </nav>
-                    <img class="img-header" src="./images/icons/loupe.svg" alt="loupe">
-                    <div class="count-wrapper">
-                        <img class="img-header img-header-count" src="./images/icons/statistics.svg" alt="statistic-img">
-                        <span class="header-count">0</span>
-                    </div>
-                    <div class="count-wrapper">
-                        <img class="img-header img-header-count" src="./images/icons/like.svg" alt="statistic-img">
-                        <span class="header-count">0</span>
-                    </div>
-                    <div class="basket-header">
-                        <img class="img-header" src="./images/icons/basket.svg" alt="basket">
-                        <div class="basket-header-text-wrapper">
-                            <p class="basket-text">Корзина</p>
-                            <span class="basket-sub-text">пуста</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </header>
     <main class="main">
         <section class="repair">
             <div class="container">
@@ -70,7 +17,7 @@
                             <h1 class="repair-title">Ремонт компьютеров в Перми</h1>
                             <p class="repair-text">ДиС-КОМ с 2012 года осуществляет качественный ремонт, <br> обслуживание и сборку компьютеров и ноутбуков</p>
                         </div>
-                        <img src="./images/Первый блок.png">
+                        <img class="repair-img" src="./images/Первый блок.png">
                     </div>
                     <div class="engineer">
                         <div class="engineer-content">
@@ -109,130 +56,156 @@
                         <div class="line"></div>
                         <h1 class="title">Прайс лист по ремонту компьютеров и ноутбуков</h1>
                     </div>
+                    <div class="price-list-add-content-wrapper">
+                        <button class="price-list-add-content price-list-add-content-active">Системные блоки</button>
+                        <button class="price-list-add-content">Ноутбуки / Моноблоки</button>
+                        <button class="price-list-add-content">iMac/MacBook</button>
+                    </div>
                     <div class="price-list-content">
                         <table>
+                            <h2 class="table-add-title">Ремонт системных блоков</h2>
                             <tr>
                                 <th>Вид работ</th>
-                                <th>Системные блоки</th>
-                                <th>Ноутбуки / Моноблоки</th>
-                                <th>iMac/MacBook</th>
+                                <th class="remove-table-item">Системные блоки</th>
+                                <th class="remove-table-item">Ноутбуки / Моноблоки</th>
+                                <th class="remove-table-item">iMac/MacBook</th>
+                                <th class="add-table-item">Стоимость</th>
                             </tr>
                             <tr class="custom">
                                 <td>Диагностика (бесплатна в случае ремонта)</td>
-                                <td>1000 руб.</td>
-                                <td>1000 руб.</td>
-                                <td>1000 руб.</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="add-table-item">1000 руб.</td>
                             </tr>
                             <tr>
                                 <td>Профилактика (чистка от пыли, замена термопасты)</td>
-                                <td>2000 руб.</td>
-                                <td>2000 руб.</td>
-                                <td>от 3000 руб.</td>
+                                <td class="remove-table-item">2000 руб.</td>
+                                <td class="remove-table-item">2000 руб.</td>
+                                <td class="remove-table-item">от 3000 руб.</td>
+                                <td class="add-table-item">2000 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Ремонт материнской платы</td>
-                                <td>от 2000 руб.</td>
-                                <td>от 2000 руб.</td>
-                                <td>от 2000 руб.</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="add-table-item">от 2000 руб.</td>
                             </tr>
                             <tr>
                                 <td>Прошивка, восстановление BIOS, замена микросхемы</td>
-                                <td>2500 руб.</td>
-                                <td>2500 руб.</td>
-                                <td>-</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">2500 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Замена батареи BIOS</td>
-                                <td>600 руб.</td>
-                                <td>2000 руб. + деталь</td>
-                                <td>-</td>
+                                <td class="remove-table-item">600 руб.</td>
+                                <td class="remove-table-item">2000 руб. + деталь</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">600 руб.</td>
                             </tr>
                             <tr>
                                 <td>Установка/замена блока питания</td>
-                                <td>1000 руб.</td>
-                                <td>-</td>
-                                <td>от 2000 руб.</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="add-table-item">1000 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Замена кулера</td>
-                                <td>1000 руб.</td>
-                                <td>1500 руб. + деталь</td>
-                                <td>от 1500 руб. + деталь</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="remove-table-item">1500 руб. + деталь</td>
+                                <td class="remove-table-item">от 1500 руб. + деталь</td>
+                                <td class="add-table-item">1000 руб.</td>
                             </tr>
                             <tr>
                                 <td>Профилактика видеокарты</td>
-                                <td>2000 руб.</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td class="remove-table-item">2000 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">2000 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Ремонт видеокарты</td>
-                                <td>от 2000 руб.</td>
-                                <td>от 2000 руб.</td>
-                                <td>от 3000 руб.</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="remove-table-item">от 3000 руб.</td>
+                                <td class="add-table-item">от 2000 руб.</td>
                             </tr>
                             <tr>
                                 <td>Замена клавиатуры</td>
-                                <td>-</td>
-                                <td>от 1500 руб. + деталь</td>
-                                <td>от 3000 руб. + деталь</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="remove-table-item">от 1500 руб. + деталь</td>
+                                <td class="remove-table-item">от 3000 руб. + деталь</td>
+                                <td class="add-table-item">-</td>
                             </tr>
                             <tr class="custom">
                                 <td>Замена корпуса</td>
-                                <td>2000 руб. + деталь</td>
-                                <td>3000 руб. + деталь</td>
-                                <td>4000 руб. + деталь</td>
+                                <td class="remove-table-item">2000 руб. + деталь</td>
+                                <td class="remove-table-item">3000 руб. + деталь</td>
+                                <td class="remove-table-item">4000 руб. + деталь</td>
+                                <td class="add-table-item">2000 руб. + деталь</td>
                             </tr>
                             <tr>
                                 <td>Восстановление корпуса</td>
-                                <td>-</td>
-                                <td>от 2000 руб.</td>
-                                <td>-</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="remove-table-item">от 2000 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">-</td>
                             </tr>
                             <tr class="custom">
                                 <td>Замена разъёма</td>
-                                <td>2000 руб. + деталь</td>
-                                <td>3000 руб. + деталь</td>
-                                <td>4000 руб. + деталь</td>
+                                <td class="remove-table-item">2000 руб. + деталь</td>
+                                <td class="remove-table-item">3000 руб. + деталь</td>
+                                <td class="remove-table-item">4000 руб. + деталь</td>
+                                <td class="add-table-item">2000 руб. + деталь</td>
                             </tr>
                             <tr>
                                 <td>Установка операционной системы + офисные программы</td>
-                                <td>3000 руб.</td>
-                                <td>3000 руб.</td>
-                                <td>3500 руб.</td>
+                                <td class="remove-table-item">3000 руб.</td>
+                                <td class="remove-table-item">3000 руб.</td>
+                                <td class="remove-table-item">3500 руб.</td>
+                                <td class="add-table-item">3000 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Установка офисных программ и прочего ПО</td>
-                                <td>1500 руб.</td>
-                                <td>1500 руб.</td>
-                                <td>2000 руб.</td>
+                                <td class="remove-table-item">1500 руб.</td>
+                                <td class="remove-table-item">1500 руб.</td>
+                                <td class="remove-table-item">2000 руб.</td>
+                                <td class="add-table-item">1500 руб.</td>
                             </tr>
                             <tr>
                                 <td>Cброс пароля на вход в операционную систему</td>
-                                <td>2500 руб.</td>
-                                <td>2500 руб.</td>
-                                <td>-</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">2500 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Удаление вредоносного ПО</td>
-                                <td>2500 руб.</td>
-                                <td>2500 руб.</td>
-                                <td>-</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">2500 руб.</td>
+                                <td class="remove-table-item">-</td>
+                                <td class="add-table-item">2500 руб.</td>
                             </tr>
                             <tr>
                                 <td>Установка драйверов</td>
-                                <td>1500 руб.</td>
-                                <td>1500 руб.</td>
-                                <td>1000 руб.</td>
+                                <td class="remove-table-item">1500 руб.</td>
+                                <td class="remove-table-item">1500 руб.</td>
+                                <td class="remove-table-item">1000 руб.</td>
+                                <td class="add-table-item">1500 руб.</td>
                             </tr>
                             <tr class="custom">
                                 <td>Выезд инженера</td>
-                                <td>2500 в час</td>
-                                <td>2500 в час</td>
-                                <td>2500 в час</td>
+                                <td class="remove-table-item">2500 в час</td>
+                                <td class="remove-table-item">2500 в час</td>
+                                <td class="remove-table-item">2500 в час</td>
+                                <td class="add-table-item">2500 в час</td>
                             </tr>
                         </table>
-                        <div class="engineer price-engineer">
+                        <div class="engineer price-engineer price-engineer-remove">
                             <div class="engineer-content">
                                 <p class="engineer-text">Позвоните 2-700-646 или заполните <br> форму, и инженер проконсультирует вас</p>
                                 <div class="engineer-btn-wrapper">
@@ -258,6 +231,30 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="engineer price-engineer price-engineer-active">
+                <div class="engineer-content">
+                    <p class="engineer-text">Позвоните 2-700-646 или заполните <br> форму, и инженер проконсультирует вас</p>
+                    <div class="engineer-btn-wrapper">
+                        <button class="social-btn">
+                            <img class="engineer-img" src="./images/icons/whatsapp.png">
+                        </button>
+                        <button class="social-btn">
+                            <img class="engineer-img" src="./images/icons/Viber.png">
+                        </button>
+                        <button class="social-btn">
+                            <img class="engineer-img" src="./images/icons/tg.png">
+                        </button>
+                        <button class="social-btn">
+                            <img class="engineer-img" src="./images/icons/vk.png">
+                        </button>
+                    </div>
+                </div>
+                <form action="" class="engineer-form">
+                    <input class="engineer-input" placeholder="Имя" type="text">
+                    <input class="engineer-input" placeholder="Телефон" type="tel">
+                    <input class="engineer-btn" type="submit" value="Отправить заявку">
+                </form>
             </div>
         </section>
         <section class="work">
@@ -348,11 +345,11 @@
             <div class="container">
                 <div class="slider-wrapper">
                     <div class="slider-slides-wrapper">
-                        <div class="swiper-slide"><img src="./images/инженер 2.png"></div>
-                        <div class="swiper-slide"><img src="./images/инженер 3.png"></div>
-                        <div class="swiper-slide"><img src="./images/инженер 4.png"></div>
+                        <div class="swiper-slide"><img class="slide-img" src="./images/инженер 2.png"></div>
+                        <div class="swiper-slide swiper-slide-hide-next"><img class="slide-img" src="./images/инженер 3.png"></div>
+                        <div class="swiper-slide swiper-slide-hide"><img class="slide-img" src="./images/инженер 4.png"></div>
                     </div>
-                    <div class="slider-paagination">
+                    <div class="slider-pagination">
                         <input type="radio">
                         <input type="radio">
                         <input type="radio">
